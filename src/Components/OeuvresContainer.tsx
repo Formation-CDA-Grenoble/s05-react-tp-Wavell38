@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { CardOeuvre } from '.'
+import { ExtendCardOeuvre } from '.'
 import { oeuvreData } from '../data'
 
 
@@ -17,11 +17,7 @@ export default class OeuvresContainer extends React.Component<any, any, any> {
 		return(
 			<div className="Oeuvres-container">
 				{ this.state.data? this.state.data.map((item:any, index:number) => {
-					<CardOeuvre data={ item } key={ index }>
-						<div className="down-card">
-							<p>{ item.title }</p>
-						</div>
-					</CardOeuvre>
+					<ExtendCardOeuvre data={ item } key={ index } id={ index }/>
 				}) :null }
 			</div>
 		)
