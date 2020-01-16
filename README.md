@@ -1,22 +1,44 @@
-# Initiation à React - Travaux pratiques
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Horreur! Jean-Louis, notre dev front, nous a laissé en plan avec le site de notre client, l'écrivain Jean Neymar! 😱 Le code source est sur son compte Github en privé, et il est parti avec les codes d'accès de Netlify! Heureusement, le site est encore [en ligne](https://jean-neymar.netlify.com/). C'est à toi que revient la lourde tâche de refaire le travail de Jean-Louis. Oui oui, toi qui lis ces lignes! 👀
+## Available Scripts
 
-## Objectifs
+In the project directory, you can run:
 
-Tu dois réussir à recréer la structure du site en React. Attention, il faut que le code soit le mieux organisé et le mieux factorisé possible, car il y a une deuxième version de prévue, qui va réutiliser des composants déjà existants dans la version actuelle!
+### `yarn start`
 
-Notre intégrateur pourra s'occuper de réécrire le CSS, donc ne te casse pas trop la tête sur le design. L'important, c'est le React. Après, si tu as du temps devant toi...
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Conseils
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-- Observe bien le site et réfléchis avant de coder. Comment vas-tu structurer ton application?
-- Identifie les parties qui peuvent être réutilisables et découpe tes composants en fonction.
-- Tu peux t'aider des outils de développement pour récupérer une partie du travail de Jean-Louis. Tous les moyens sont bons!
+### `yarn test`
 
-## Bonus
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-- Mettre en place le routeur pour pouvoir passer d'une page à l'autre sans rechargement.
-- Coder une nouvelle page: lorsqu'on va sur la route `/books/[id]`, où **id** est un nombre, on affiche les détails d'un livre en particulier.
-- Recréer les effets sympas en CSS.
-- Ecrire les feuilles de style en SCSS au lieu du CSS.
+### `yarn build`
+
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `yarn eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
