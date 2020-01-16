@@ -17,6 +17,7 @@ export default class CardOeuvre extends React.Component<any, any, any> {
 				<div className="price">
 					<p>{ this.props.price }</p>
 				</div>
+				{ this.props.children }
 			</div>
 		)
 	}
