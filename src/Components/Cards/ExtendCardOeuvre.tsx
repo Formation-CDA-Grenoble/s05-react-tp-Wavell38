@@ -10,11 +10,13 @@ export default class ExtendCardOeuvre extends React.Component<any, any, any> {
 
 	render() {
 		return(
-			<CardOeuvre data={ this.props.data }>
-				<div className="down-card">
-					<p>{ this.props.data.title }</p>
-				</div>
-			</CardOeuvre>
+			<>
+				<CardOeuvre data={ this.props.data }>
+					<div className="down-card">
+						<p>{ this.props.data.title }</p>
+					</div>
+				</CardOeuvre>
+			</>
 		)
 	}
 }

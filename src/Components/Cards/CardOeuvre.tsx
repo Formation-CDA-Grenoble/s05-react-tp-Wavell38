@@ -7,17 +7,20 @@ export default class CardOeuvre extends React.Component<any, any, any> {
 	}
 
 	render() {
-		let img:string|null = this.props.image? this.props.image : ""
+		let img:string|null = this.props.data.image? this.props.image : ""
 		return(
 			<div className="card-oeuvre">
 				<div className="title" style={{ background: `url(${img})` }}>
-					<p>{ this.props.author }</p>
-					<h2>{ this.props.title }</h2>
+					<p>{ this.props.data.author }</p>
+					<h2>{ this.props.data.title }</h2>
 				</div>
 				<div className="price">
-					<p>{ this.props.price }</p>
+					<p>{ this.props.data.price }</p>
 				</div>
-				{ this.props.children }
+				
+				<div className="down-card">
+					<p>{ this.props.data.title }</p>
+				</div>
 			</div>
 		)
 	}

@@ -1,7 +1,7 @@
 import React from 'react'
 
-import { ExtendCardOeuvre } from '.'
-import { oeuvreData } from '../data'
+import { CardOeuvre } from '.'
+import { oeuvreData as data } from '../../data'
 
 
 export default class OeuvresContainer extends React.Component<any, any, any> {
@@ -9,16 +9,17 @@ export default class OeuvresContainer extends React.Component<any, any, any> {
 		super(props)
 
 		this.state = {
-			data: oeuvreData
+			data: data
 		}
 	}
 
 	render() {
+		console.log(this.state.data)
 		return(
 			<div className="Oeuvres-container">
 				{ this.state.data? this.state.data.map((item:any, index:number) => {
-					<ExtendCardOeuvre data={ item } key={ index } id={ index }/>
-				}) :null }
+					<CardOeuvre data={ item } key={ index } />
+				}) : null }
 			</div>
 		)
 	}

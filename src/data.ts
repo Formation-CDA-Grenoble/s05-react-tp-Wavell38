@@ -1,3 +1,5 @@
+'use strict'
+
 export const oeuvreData = [
 {
 	title: 'Après coup, Jean rigole',
@@ -17,4 +19,8 @@ export const oeuvreData = [
 	price: 'Prix Castaner 2019',
 	description: 'Lorem ipsum adipisicing elit. Rerum, iste distinctio laboriosam aspernatur ducimus quam unde, impedit exercitationem quia velit nam dicta perferendis fuga consectetur minus obcaecati tempora cumque nostrum itaque atque consequatur, ex perspiciatis. Sunt totam voluptatibus aut voluptas dolorum explicabo distinctio harum, voluptatem, vitae debitis quis corrupti perspiciatis?'
 }
+]
+
+export const buttonNav = [
+
 ]
